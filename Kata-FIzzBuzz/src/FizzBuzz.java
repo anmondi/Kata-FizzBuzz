@@ -20,7 +20,7 @@ public class FizzBuzz {
         
         String resultado = String.valueOf(num);
         
-        if(num==3){
+        if(num%3==0){
             resultado = "Fizz";
         }  
         return resultado;          
