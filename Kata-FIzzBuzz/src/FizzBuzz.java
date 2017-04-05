@@ -13,6 +13,6 @@ public class FizzBuzz {
     
     
     public int getFizzBuzz(int num){
-        return 1;
+        return num;
     }
 }
