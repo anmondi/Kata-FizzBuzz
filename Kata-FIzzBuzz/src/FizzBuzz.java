@@ -22,7 +22,10 @@ public class FizzBuzz {
         
         if(num%3==0){
             resultado = "Fizz";
-        }  
+        }
+        else if(num%5==0){
+            resultado = "Buzz";
+        }
         return resultado;          
     }
 }
