@@ -46,7 +46,12 @@ public class FizzBuzzTest {
         String result = fb.getFizzBuzz(5);
         assertEquals("Buzz", result);
     }
-    
+    @Test
+    public void testFizzBuzzDeCincoTresDivisibleDevuelveFizzBuzz() {
+        FizzBuzz fb = new FizzBuzz();
+        String result = fb.getFizzBuzz(15);
+        assertEquals("FizzBuzz", result);
+    }
     
     
 }

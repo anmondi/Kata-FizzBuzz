@@ -22,6 +22,9 @@ public class FizzBuzz {
         
         if(num%3==0){
             resultado = "Fizz";
+            if(num%5==0){
+                resultado = "FizzBuzz";
+            }
         }
         else if(num%5==0){
             resultado = "Buzz";
