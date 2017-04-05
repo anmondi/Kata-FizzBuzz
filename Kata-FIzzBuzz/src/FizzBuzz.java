@@ -19,7 +19,10 @@ public class FizzBuzz {
     public String getFizzBuzz(int num){
         
         String resultado = String.valueOf(num);
-        
+        String textoNumero = resultado;
+        if (textoNumero.contains("3")){
+            resultado = "Fizz";
+        }
         if(num%3==0){
             resultado = "Fizz";
             if(num%5==0){
