@@ -12,7 +12,17 @@ public class FizzBuzz {
     
     
     
-    public int getFizzBuzz(int num){
+   /* public int getFizzBuzz(int num){
         return num;
+    }
+   */
+    public String getFizzBuzz(int num){
+        
+        String resultado = String.valueOf(num);
+        
+        if(num==3){
+            resultado = "Fizz";
+        }  
+        return resultado;          
     }
 }
